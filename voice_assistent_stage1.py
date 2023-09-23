@@ -32,17 +32,6 @@ def txtspeech(user_voice):
 	engine.setProperty('rate',150)
 	engine.say(user_voice)
 	engine.runAndWait()
-	
-	
-"""	
-#txtspeech("I am a student and I am pursuing Masters in Computer Science.")	
-	
-txtspeech(sptext())	
-
-
-#sptext()
-"""
-
 
 
 
