@@ -68,29 +68,26 @@ if __name__ == '__main__':
 				elif 'youtube' in data1:
 					webbrowser.open('https://www.youtube.com/')	
 					
-				elif 'my channel' in data1:
-					webbrowser.open('youtube.com/c/AnimeStar022?sub_confirmation=1')	
-						
 				elif 'pinterest' in data1:
 					webbrowser.open('https://in.pinterest.com/')	
 						
 				elif 'pinterest profile' in data1:
-					webbrowser.open('https://in.pinterest.com/vishnulohkna/')
+					webbrowser.open('pinterest profile link')
 					
 				elif 'krishna bhajan' in data1 or 'krishn bhajan' in data1:
 					webbrowser.open('https://www.youtube.com/watch?v=jl4Y7fzmhfE&list=PLUtuusAiDCARisDvSvCetWNCoMCE9nwlD')			
 					
 				elif 'instagram profile' in data1:
-					webbrowser.open('https://www.instagram.com/itachiuzumaki022/')
+					webbrowser.open('instagram profile link')
 				
 				elif 'insta profile' in data1:
-					webbrowser.open('https://www.instagram.com/itachiuzumaki022/')		
+					webbrowser.open('instagram profile link')		
 				
 				elif 'instagram account' in data1:
-					webbrowser.open('https://www.instagram.com/itachiuzumaki022/')
+					webbrowser.open('instagram profile link')
 				
 				elif 'insta account' in data1:
-					webbrowser.open('https://www.instagram.com/itachiuzumaki022/')	
+					webbrowser.open('instagram profile link')	
 				
 				elif 'instagram' in data1:
 					webbrowser.open('https://www.instagram.com/')
@@ -110,10 +107,10 @@ if __name__ == '__main__':
 					txtspeech(joke)
 						
 				elif 'song' in data1:
-					songs = listdir('/home/dhruv051/Desktop/songs')
+					songs = listdir('song directry path')
 					print(songs)
 						
-					webbrowser.open("/home/dhruv051/Desktop/songs"+'/'+ songs[-1])
+					webbrowser.open("song directry path"+'/'+ songs[-1])
 				
 				elif 'music' in data1:
 					print('What is the music or song name?')
