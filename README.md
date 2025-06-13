@@ -17,3 +17,6 @@ This is a beginner-level Python project that demonstrates a basic **voice assist
 - [pyttsx3](https://pypi.org/project/pyttsx3/)
 - [datetime](https://docs.python.org/3/library/datetime.html)
 - [webbrowser](https://docs.python.org/3/library/webbrowser.html)
+  
+## ⚠️ Important Note
+Some parts of the code may reference specific file paths or directories on the developer’s system. Make sure to update any such paths according to your own local machine. For example, if the assistant needs to open a specific file or program, you must provide the correct path that exists on your system.
